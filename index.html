@@ -7,6 +7,16 @@
     <title>YouCheng Lin</title>
 
     <link rel="stylesheet" href="style.css" />
+
+    <!-- 插圖 -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
   </head>
 
   <body>
@@ -15,11 +25,70 @@
 
       <nav>
         <ul>
-          <li><a href="#">首頁</a></li>
-          <li><a href="#">程式碼</a></li>
-          <li><a href="#">關於</a></li>
+          <li><a href="#home" class="active">首頁</a></li>
+          <li><a href="#code">程式碼</a></li>
+          <li><a href="#about">關於</a></li>
         </ul>
       </nav>
     </header>
+
+    <section id="home"></section>
+
+    <section id="code"></section>
+
+    <section id="about">
+      <div class="introduction">
+        <h1>個人簡介</h1>
+        <ul>
+          <li>國立台南第一高級中學(TNFSH)</li>
+          <li>國立陽明交通大學-工業工程與管理學系(NYCU-IEM)</li>
+        </ul>
+      </div>
+
+      <div class="language">
+        <h1>使用語言</h1>
+        <p>在編寫程式上主要使用Python進行，但多種程式語言皆有涉略。</p>
+        <ul>
+          <li><ion-icon name="code-outline"></ion-icon>C++</li>
+          <li><img src="images/python.png" />Python</li>
+          <li><img src="images/html.png" />HTML</li>
+          <li><img src="images/css.png" />CSS</li>
+          <li><ion-icon name="code-outline"></ion-icon>SCSS</li>
+          <li><img src="images/javascript.png" />JavaScript</li>
+        </ul>
+      </div>
+
+      <div class="link">
+        <h1>相關連結</h1>
+        <ul>
+          <li>
+            <a href="#">高中生程式解題系統(ZeroJudge)</a>
+          </li>
+
+          <li>
+            <a href="mailto:youchenglin0304@gmail.com">
+              <ion-icon name="mail-outline"></ion-icon>youchenglin0304@gmail.com
+            </a>
+          </li>
+
+          <li>
+            <a
+              href="https://www.facebook.com/profile.php?id=100007094207213"
+              target="_blank"
+            >
+              <ion-icon name="logo-facebook"></ion-icon>Daniel Lin
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.instagram.com/y.cccc_34/" target="_blank">
+              <ion-icon name="logo-instagram"></ion-icon>y.cccc_34
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <script src="script.js"></script>
   </body>
 </html>
